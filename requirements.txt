@@ -1,0 +1,6 @@
+## How to run
+
+```bash
+pip install pandas openpyxl
+python report.py
+```
