@@ -17,13 +17,6 @@ Player rating correlates much more strongly with minutes played (0.84) than with
 For downloading the dataset ->
 Source: [Kaggle]](https://www.kaggle.com/datasets/rauffauzanrambe/fifa-world-cup-2026-player-performance-dataset))
 
-## How to run
-
-```bash
-pip install pandas openpyxl
-python report.py
-```
-
 ## Output
 
-Generates `report_finale.xlsx` with 4 sheets: top scorers, rating by position, goals by team, and correlation matrix.
+Generates `final_Report.xlsx` with 4 sheets: top scorers, rating by position, goals by team, and correlation matrix.
