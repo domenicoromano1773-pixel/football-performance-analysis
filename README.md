@@ -17,7 +17,6 @@ Player rating correlates much more strongly with minutes played (0.84) than with
 For downloading the dataset ->
 Source: [Kaggle]](https://www.kaggle.com/datasets/rauffauzanrambe/fifa-world-cup-2026-player-performance-dataset))
 
-## Output
 
 ## Output
 
