@@ -19,8 +19,54 @@ Source: [Kaggle]](https://www.kaggle.com/datasets/rauffauzanrambe/fifa-world-cup
 
 ## Output
 
-Generates `final_Report.xlsx` with 4 sheets: top scorers, rating by position, goals by team, and correlation matrix.
-<img width="701" height="519" alt="Screenshot 2026-07-01 115740" src="https://github.com/user-attachments/assets/48782d2a-38e6-4fe8-a0d1-6b3c8db8d18b" />
-<img width="482" height="165" alt="Screenshot 2026-07-01 115803" src="https://github.com/user-attachments/assets/c025ed98-3f58-4f0c-9df6-287a0f40f0e4" />
-<img width="881" height="521" alt="Screenshot 2026-07-01 115759" src="https://github.com/user-attachments/assets/1653b188-a8ba-435b-88f0-fade501b7bc2" />
-<img width="733" height="523" alt="Screenshot 2026-07-01 115745" src="https://github.com/user-attachments/assets/c2cfc3aa-f26e-41d5-8e17-d177c59939c9" />
+## Output
+
+Generates `final_report.xlsx` with 4 sheets: top scorers, rating by position, goals by team, and correlation matrix.
+
+### Top Goalscorers
+
+| Player | Goals |
+|---|---|
+| Memphis Zerrouki | 24 |
+| Kasey Hector | 16 |
+| Eric Rodriguez | 15 |
+| Vinicius Nunes | 15 |
+| Mohannad Majeed | 15 |
+| Dominik Kramaric | 15 |
+| Eric Mba | 14 |
+| Randal Duarte | 14 |
+| Saleh Al-Qahtani | 13 |
+| Andre Bassogog | 13 |
+
+### Rating by Position
+
+| Position | Avg. Rating |
+|---|---|
+| Forward | 3.88 |
+| Midfielder | 3.86 |
+| Defender | 3.79 |
+| Goalkeeper | 2.07 |
+
+### Goals by Team (Top 10)
+
+| Team | Goals |
+|---|---|
+| Qatar | 95 |
+| Netherlands | 94 |
+| Panama | 90 |
+| Cameroon | 88 |
+| Saudi Arabia | 82 |
+| Jamaica | 79 |
+| Tunisia | 78 |
+| Costa Rica | 76 |
+| Ghana | 75 |
+| Iran | 72 |
+
+### Correlation Matrix
+
+| | minutes_played | goals | assists | player_rating |
+|---|---|---|---|---|
+| minutes_played | 1.00 | 0.22 | 0.22 | 0.84 |
+| goals | 0.22 | 1.00 | 0.09 | 0.22 |
+| assists | 0.22 | 0.09 | 1.00 | 0.20 |
+| player_rating | 0.84 | 0.22 | 0.20 | 1.00 |
